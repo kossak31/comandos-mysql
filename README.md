@@ -24,6 +24,11 @@ CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 CREATE USER 'newuser'@'%' IDENTIFIED BY 'password';
 ```
 
+## alterar passsword
+```
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'newPass';
+```
+
 ## todas as permissoes
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
